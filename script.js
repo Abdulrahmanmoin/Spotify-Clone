@@ -1,7 +1,7 @@
 
 // initialize the variables
 let songIndex = 0;
-let audioElement = new Audio('song1.mp3');
+let audioElement = new Audio('spotifyAssets/song1.mp3');
 let masterPlay = document.querySelector("#masterPlay");
 let myProgressBar = document.querySelector("#myProgressBar");
 let gif = document.querySelector("#gif");
@@ -9,14 +9,14 @@ let masterSongName = document.querySelector("#masterSongName");
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let songs = [
-    { songName: "let you love me", filePath: "song1.mp3", coverPath: "covers1.jpg" },
-    { songName: "Cielo", filePath: "song2.mp3", coverPath: "covers2.jpg" },
-    { songName: "DEAF KEV", filePath: "song1.mp3", coverPath: "covers3.jpg" },
-    { songName: "let you love me", filePath: "song2.mp3", coverPath: "covers4.jpg" },
-    { songName: "Warriyo - Mortals [NCS Release]", filePath: "song1.mp3", coverPath: "covers5.jpg" },
-    { songName: "let you love me", filePath: "song2.mp3", coverPath: "covers6.jpg" },
-    { songName: "let you love me", filePath: "song1.mp3", coverPath: "covers7.jpg" },
-    { songName: "let you love me", filePath: "song2.mp3", coverPath: "covers8.jpg" }
+    { songName: "let you love me", filePath: "spotifyAssets/song1.mp3", coverPath: "spotifyAssets/covers1.jpg" },
+    { songName: "Cielo", filePath: "spotifyAssets/song2.mp3", coverPath: "spotifyAssets/covers2.jpg" },
+    { songName: "DEAF KEV", filePath: "spotifyAssets/song1.mp3", coverPath: "spotifyAssets/covers3.jpg" },
+    { songName: "let you love me", filePath: "spotifyAssets/song2.mp3", coverPath: "spotifyAssets/covers4.jpg" },
+    { songName: "Warriyo - Mortals [NCS Release]", filePath: "spotifyAssets/song1.mp3", coverPath: "spotifyAssets/covers5.jpg" },
+    { songName: "let you love me", filePath: "spotifyAssets/song2.mp3", coverPath: "spotifyAssets/covers6.jpg" },
+    { songName: "let you love me", filePath: "spotifyAssets/song1.mp3", coverPath: "spotifyAssets/covers7.jpg" },
+    { songName: "let you love me", filePath: "spotifyAssets/song2.mp3", coverPath: "spotifyAssets/covers8.jpg" }
 ]
 
 songItems.forEach((element, i) => {
